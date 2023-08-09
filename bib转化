@@ -1,0 +1,25 @@
+%将bib参考文献转化为所需要参考格式
+\documentclass{article}
+
+\begin{document}
+	
+	\nocite{*}
+	\begin{thebibliography}{99}
+		
+		% \bibitem[Author(year)]{label}
+		
+		% Text of bibliographic item
+		
+		\bibitem[ (1)]{}
+		\bibitem[ (3)]{}
+		\bibitem[ ()]{}
+		
+		
+	\end{thebibliography}
+	
+
+	\bibliography{THF_refs} %.bib文件名字
+	
+%	\bibliographystyle{IEEEtran} %.bst模板
+	\bibliographystyle{elsarticle-num}
+\end{document}
